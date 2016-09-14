@@ -124,7 +124,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) {
         //Labels for the textfields
-        Label lblTitle = new Label("Car Inventory");
+        Label lblTitle = new Label("Vehicle Inventory");
         Label lblModel = new Label("Car Model: ");
         Label lblMaker = new Label("Maker: ");
         Label lblBodyType = new Label("Body Type: ");
@@ -390,7 +390,7 @@ public class Main extends Application {
         pane.add(navigateHBox, 0, 2);
 
         Scene scene = new Scene(pane, 890, 500);
-        primaryStage.setTitle("Hello World!");
+        primaryStage.setTitle("Vehicle Inventory!");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
